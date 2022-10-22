@@ -1,17 +1,23 @@
 #include "main.h"
 
 /**
- *  _indigit - checks if a char is a digit
- *  @c: int to be checked
- *  Return: 1 if c a digit, 0 otherwise
+ * _isdigit - A function that checks for a digit (0 through 9).
+ * @c: An input integer
+ * Return: 1 if c is a digit or 0 otherwise
  */
 int _isdigit(int c)
 {
-	int y = 0;
+	char i = '0';
+	int isdigit = 0;
 
-	if (c >= '0' && c <= '9')
-		y = 1;
-	
-	return (y);
+	for (; i <= '9'; i++)
+	{
+		if (i == c)
+		{
+			isdigit = 1;
+			break;
+		}
+	}
 
+	return (isdigit);
 }
