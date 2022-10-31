@@ -24,4 +24,3 @@ void print_diagsums(int *a, int size)
 	}
 	printf("%d, %d\n", sumdiag1, sumdiag2);
 }
-Footer
