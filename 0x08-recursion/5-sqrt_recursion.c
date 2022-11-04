@@ -2,17 +2,7 @@
 /**
  *_evaluate - evaluate function sqrt
  *@i: interger
- *@n: interger#include "main.h"
-/**
- *_evaluate - evaluate function sqrt
- *@i: interger
  *@n: interger
- *Return: evaluate sqrt
- */
-
-int _evaluate(int i, int n)
-{
-/*Evaluate function*/
  *Return: evaluate sqrt
  */
 
